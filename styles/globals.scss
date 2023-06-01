@@ -13,6 +13,8 @@ html {
 }
 body {
   user-select: none;
+  transition: all;
+  
 }
 // scroll bar color change
 ::-webkit-scrollbar {
