@@ -1,33 +1,29 @@
 
-# Boilerplate
+# 模版
 
-This is a boilerplate project for kickstarting your development with Next.js.
+这是一个模版项目，用于启动您使用 Next.js 的开发。
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-- [Scripts](#scripts)
-- [Dependencies](#dependencies)
 
 
-## Getting Started
+## 入门
 
-To get started with this boilerplate, follow these steps:
+1. 克隆存储库：git clone <repository-url>
+2. 安装依赖项：npm install
+3. 启动开发服务器：npm run dev
+4. 打开浏览器并访问http://localhost:3000以查看正在运行的应用程序。
 
-1. Clone the repository: `git clone <repository-url>`
-2. Install the dependencies: `npm install`
-3. Start the development server: `npm run dev`
-4. Open your browser and visit `http://localhost:3000` to see the application running.
 
-## Scripts
+## 脚本
 
-The following scripts are available:
+- `dev`: 启动服务器.
+- `build`: 构建用于生产的应用程序.
+- `start`: 启动生产服务器.
+- `lint`: 运行ESLint 运行代码检查.
+- `prod`: 构建应用程序并将其导出到 build 目录
+-  postcss  path.css --dir public --watch 
 
-- `dev`: Starts the development server.
-- `build`: Builds the application for production.
-- `start`: Starts the production server.
-- `lint`: Runs ESLint for code linting.
-- `prod`: Builds the application and exports it to the `build` directory.
 
 You can run these scripts using the command `npm run <script-name>`.
 
@@ -35,19 +31,15 @@ You can run these scripts using the command `npm run <script-name>`.
 
 This boilerplate project has the following dependencies:
 
-- [@reduxjs/toolkit](https://github.com/reduxjs/redux-toolkit): Redux toolkit for efficient Redux development.
-- [autoprefixer](https://github.com/postcss/autoprefixer): PostCSS plugin to parse CSS and add vendor prefixes automatically.
-- [eslint](https://github.com/eslint/eslint): Pluggable JavaScript linter.
-- [eslint-config-next](https://github.com/vercel/next.js/tree/canary/packages/eslint-config-next): ESLint configuration for Next.js projects.
-- [next](https://github.com/vercel/next.js): React framework for server-rendered applications.
-- [postcss](https://github.com/postcss/postcss): Tool for transforming CSS with JavaScript.
-- [react](https://github.com/facebook/react): JavaScript library for building user interfaces.
-- [react-dom](https://github.com/facebook/react): Entry point to the DOM and server renderers for React.
-- [react-icons](https://github.com/react-icons/react-icons): SVG icons library for React.
-- [react-redux](https://github.com/reduxjs/react-redux): Official React bindings for Redux.
-- [sass](https://github.com/sass/dart-sass): Dart implementation of Sass, a CSS preprocessor.
-- [tailwindcss](https://github.com/tailwindlabs/tailwindcss): Utility-first CSS framework.
+- Redux 开发的 Redux 工具包。
+- PostCSS插件，用于解析CSS并自动添加供应商前置。
+- 可插入的 JavaScript linter。
+- Next.js 项目的 ESLint 配置。
+- 用于服务器应用程序的 React 框架。
+- react
+- React 的 DOM
+- React 的 SVG 图标库。
+- Redux 
+- Sass 的 Dart 实践，一个 CSS 预测器。
+- 实用程序优先的CSS框架。
 
-You can find the specific version of each dependency in the `package.json` file.
-
-Feel free to use this Boiler Plate according to your project's specific needs.
