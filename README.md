@@ -41,5 +41,5 @@ This boilerplate project has the following dependencies:
 - React 的 SVG 图标库。
 - Redux 
 - Sass 的 Dart 实践，一个 CSS 预测器。
-- 实用程序优先的CSS框架。
+- tailwindcss。
 
