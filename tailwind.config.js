@@ -7,8 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        "zpix": ['Zpix', "sans-serif"]
+      },
       colors: {
-       
+        headerColor:'#fee133',
+        btnColor:'#4CAF50',
         silver: "#737373",
       },
       screens: {
